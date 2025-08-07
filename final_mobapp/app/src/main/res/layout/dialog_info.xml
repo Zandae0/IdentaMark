@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white"
+    android:gravity="center">
+
+    <!-- PSNR Title -->
+    <TextView
+        android:id="@+id/tvPsnrTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PSNR"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/archivonarrowbold"
+        android:paddingVertical="8dp"
+        android:visibility="gone" />
+
+    <!-- PSNR Detail -->
+    <TextView
+        android:id="@+id/tvPsnrDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/desc_psnr"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:visibility="gone"
+        android:fontFamily="@font/archivonarrowbold" />
+
+    <!-- SNR Title -->
+    <TextView
+        android:id="@+id/tvSnrTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SNR"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:paddingVertical="8dp"
+        android:fontFamily="@font/archivonarrowbold"
+        android:visibility="gone" />
+
+    <!-- SNR Detail -->
+    <TextView
+        android:id="@+id/tvSnrDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/desc_snr"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:visibility="gone"
+        android:fontFamily="@font/archivonarrowbold" />
+
+    <!-- Payload Title -->
+    <TextView
+        android:id="@+id/tvPayloadTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payload"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:paddingVertical="8dp"
+        android:fontFamily="@font/archivonarrowbold"
+        android:visibility="gone" />
+
+    <!-- Payload Detail -->
+    <TextView
+        android:id="@+id/tvPayloadDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/desc_payload"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:visibility="gone"
+        android:fontFamily="@font/archivonarrowbold" />
+
+    <!-- BPP Title -->
+    <TextView
+        android:id="@+id/tvBppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BPP"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:paddingVertical="8dp"
+        android:fontFamily="@font/archivonarrowbold"
+        android:visibility="gone" />
+
+    <!-- BPP Detail -->
+    <TextView
+        android:id="@+id/tvBppDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/desc_bpp"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:visibility="gone"
+        android:fontFamily="@font/archivonarrowbold" />
+
+    <!-- BPS Title -->
+    <TextView
+        android:id="@+id/tvBpsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BPS"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:paddingVertical="8dp"
+        android:fontFamily="@font/archivonarrowbold"
+        android:visibility="gone" />
+
+    <!-- BPS Detail -->
+    <TextView
+        android:id="@+id/tvBpsDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/desc_bps"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:visibility="gone"
+        android:fontFamily="@font/archivonarrowbold" />
+
+    <!-- BER Title -->
+    <TextView
+        android:id="@+id/tvBerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BER"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:paddingVertical="8dp"
+        android:fontFamily="@font/archivonarrowbold"
+        android:visibility="gone" />
+
+    <!-- BER Detail -->
+    <TextView
+        android:id="@+id/tvBerDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/desc_ber"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:visibility="gone"
+        android:fontFamily="@font/archivonarrowbold" />
+
+    <Button
+        android:id="@+id/btnCloseDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/splashFragment">
+
+    <!-- Splash Fragment -->
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="splashscreen.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/fragment_splashscreen">
+        <action
+            android:id="@+id/action_splashFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
+
+    <!-- Welcome Fragment -->
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="welcomepage.WelcomeFragment"
+        android:label="WelcomeFragment"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_welcomeFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_welcomeFragment_to_registerFragment"
+            app:destination="@id/registerFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <!-- Login Fragment -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="loginpage.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login" >
+
+        <action
+            android:id="@+id/action_loginFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <!-- Register Fragment -->
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="registerpage.RegisterFragment"
+        android:label="RegisterFragment"
+        tools:layout="@layout/fragment_register" >
+
+        <action
+            android:id="@+id/action_registerFragment_to_loginfragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <!-- Dashboard Fragment -->
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="dashboardpage.DashboardFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_dashboard" >
+
+        <action
+            android:id="@+id/action_dashboardFragment_to_imageFragment"
+            app:destination="@id/imageFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_dashboardFragment_to_audioFragment"
+            app:destination="@id/audioFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <!-- image Fragment -->
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="imagepage.ImageFragment"
+        android:label="ImageFragment"
+        tools:layout="@layout/fragment_audio" >
+
+        <action
+            android:id="@+id/action_imageFragment_to_embeddingimageFragment"
+            app:destination="@id/embeddingimageFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_imageFragment_to_extractionimageFragment"
+            app:destination="@id/extractionimageFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_imageFragment_to_attackingimageFragment"
+            app:destination="@id/attackingimageFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <!-- audio Fragment -->
+    <fragment
+        android:id="@+id/audioFragment"
+        android:name="audiopage.AudioFragment"
+        android:label="AudioFragment"
+        tools:layout="@layout/fragment_image" >
+        <action
+            android:id="@+id/action_audioFragment_to_embeddingaudioFragment"
+            app:destination="@id/embeddingaudioFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_audioFragment_to_extractionaudioFragment"
+            app:destination="@id/extractionaudioFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_audioFragment_to_attackingaudioFragment"
+            app:destination="@id/attackingaudioFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <!-- Embedding Fragment -->
+    <fragment
+        android:id="@+id/embeddingimageFragment"
+        android:name="embeddingimagepage.EmbeddingImageFragment"
+        android:label="EmbeddingImageFragment"
+        tools:layout="@layout/fragment_embedding_image" />
+    <fragment
+        android:id="@+id/embeddingaudioFragment"
+        android:name="embeddingaudiopage.EmbeddingAudioFragment"
+        android:label="EmbeddingAudioFragment"
+        tools:layout="@layout/fragment_embedding_audio" />
+
+    <!-- Extraction Fragment -->
+    <fragment
+        android:id="@+id/extractionimageFragment"
+        android:name="extractionimagepage.ExtractionImageFragment"
+        android:label="ExtractionImageFragment"
+        tools:layout="@layout/fragment_extraction_image" />
+
+    <fragment
+        android:id="@+id/extractionaudioFragment"
+        android:name="extractionaudiopage.ExtractionAudioFragment"
+        android:label="ExtractionAudioFragment"
+        tools:layout="@layout/fragment_extraction_audio" />
+
+    <!-- Attacking Fragment -->
+    <fragment
+        android:id="@+id/attackingimageFragment"
+        android:name="attackingimage.AttackingImageFragment"
+        android:label="AttackingImageFragment"
+        tools:layout="@layout/fragment_attacking_image" />
+
+    <fragment
+        android:id="@+id/attackingaudioFragment"
+        android:name="attackingaudio.AttackingAudioFragment"
+        android:label="AttackingAudioFragment"
+        tools:layout="@layout/fragment_attacking_audio" />
+</navigation>

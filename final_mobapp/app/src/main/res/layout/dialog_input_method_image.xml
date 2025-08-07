@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvDialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step 2"
+        android:fontFamily="@font/archivonarrowbold"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <RadioButton
+            android:id="@+id/radioMethodA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BCH"
+            android:checked="true"
+            android:fontFamily="@font/archivonarrowbold"
+            android:textSize="25dp"
+            android:buttonTint="@color/dark_gray"/>
+        <RadioButton
+            android:id="@+id/radioMethodB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convolutional Code"
+            android:fontFamily="@font/archivonarrowbold"
+            android:textSize="25dp"
+            android:buttonTint="@color/dark_gray" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etPsnr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PSNR"
+        android:fontFamily="@font/archivonarrowbold"
+        android:gravity="center_horizontal"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/etPayload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Payload"
+        android:fontFamily="@font/archivonarrowbold"
+        android:gravity="center_horizontal"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnConfirmMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/confirm"
+        android:textColor="@color/black"/>
+</LinearLayout>

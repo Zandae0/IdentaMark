@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">IdentaMark</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="Embedding">Embedding</string>
+    <string name="Extraction">Extraction</string>
+    <string name="Attacking">Attacking</string>
+    <string name="Image">Image</string>
+    <string name="Audio">Audio</string>
+    <string name="language">Language</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="welcome">Welcome</string>
+    <string name="forgotpass">Forgot Password</string>
+    <string name="google">Continue With Google</string>
+    <string name="welcome_page">Welcome to IdentaMark</string>
+    <string name="image_watermark">Image Watermarking</string>
+    <string name="audio_watermark">Audio Watermarking</string>
+    <string name="image_watermark_embedding">Image Watermarking - Embedding</string>
+    <string name="image_watermark_extraction">Image Watermarking - Extraction</string>
+    <string name="image_watermark_attacking">Image Watermarking - Attacking</string>
+    <string name="audio_watermark_embedding">Audio Watermarking - Embedding</string>
+    <string name="audio_watermark_extraction">Audio Watermarking - Extraction</string>
+    <string name="audio_watermark_attacking">Audio Watermarking - Attacking</string>
+    <string name="close">Close</string>
+    <string name="download">download</string>
+    <string name="confirm">confirm</string>
+    <string name="choose_from_gallery">Choose From Gallery</string>
+    <string name="choose_from_file">Choose From File</string>
+    <string name="deskripsi_dashboard">Transform your creations into unstealable masterpieces with IdentaMark. Your content, your rules—protected like never before.</string>
+    <string name="deskripsi_image">Choose your process to embed or extract a watermark into your images with confidence.</string>
+    <string name="deskripsi_embedd">Embedding: "Embed a system-generated watermark into your image to enable traceability and ensure copyright protection."</string>
+    <string name="deskripsi_ektraksi">Extraction: "Retrieve the embedded watermark data for analysis and evaluation purposes."</string>
+    <string name="deskripsi_attacking">Attacking: "Test watermark strength through compression, noise, and other attacks."</string>
+    <string name="deskripsi_audio">Choose your process to embed or extract a watermark into your audio with confidence.</string>
+    <string name="deskripsi_embedd_audio">Embedding: "Embed a system-generated watermark into your audio to enable traceability and ensure copyright protection."</string>
+    <string name="deskripsi_ektraksi_audio">Extraction: "Retrieve the embedded watermark data for analysis and evaluation purposes."</string>
+    <string name="embedding_image">Embed a watermark into your image in 3 simple steps!</string>
+    <string name="attacking">Test your watermark strength in 4 simple steps!</string>
+    <string name="extraction_image">Extract the watermark from your image in 2 simple steps!</string>
+    <string name="embedding_audio">Embed a watermark into your audio in 3 simple steps!</string>
+    <string name="extraction_audio">Extract the watermark from your audio in 2 simple steps!</string>
+    <string name="success">Watermark applied successfully! Click here to view it.</string>
+    <string name="success_extract">Watermark extracted successfully! Click here to view it.</string>
+    <string name="success_attack">Watermark attacked successfully! Click here to view it.</string>
+    <string name="success_audio">Watermark applied successfully! Click here to listen to it.</string>
+    <string name="success_extract_audio">Watermark extracted successfully! Click here to listen to it.</string>
+    <string name="success_attack_audio">Watermark attacked successfully! Click here to listen to it.</string>
+    <string name="default_web_client_id">826818745234-r2ecfopp2tm9qd1h4eiu9e54tsg2c0qt.apps.googleusercontent.com</string>
+    <string name="attacking_follow">Follow These Step For Testing</string>
+    <string name="attacking_file">Choose a File</string>
+    <string name="attacking_type">Choose an Attack Type</string>
+    <string name="attacking_attack">Select an Attack Type</string>
+    <string name="attacking_params">Fill The Parameter</string>
+    <string name="attacking_wait">Please wait, your watermark is being Tested...</string>
+    <string name="choose_process">Choose Your Process</string>
+    <string name="choose_media">Choose Your Media</string>
+    <string name="boss">Watermark like a boss—its just 4 steps away:</string>
+    <string name="step1">Take Control: Select your media and start owning your content.</string>
+    <string name="step2">Dominate the Process: Embed your identity, test it, and extract with precision."</string>
+    <string name="step3">Choose The Method: Pick the perfect watermarking method.</string>
+    <string name="step4">Own the Spotlight: View, save, or share your perfectly watermarked masterpiece.</string>
+    <string name="embedding_follow">Follow These Step For Embedding</string>
+    <string name="embedding_file">Choose a File</string>
+    <string name="embedding_watermark">Choose a Watermark</string>
+    <string name="embedding_wait">Please wait, your watermark is being applied...</string>
+    <string name="embedding_method">Choose a Method</string>
+    <string name="embedding_method_select">Select a Method</string>
+    <string name="extraction_follow">Follow These Step For Extraction</string>
+    <string name="extraction_file">Choose a Watermarked File</string>
+    <string name="extraction_wait">Please wait, your watermark is being extracted...</string>
+    <string name="extraction_method">Choose a Method</string>
+    <string name="extraction_method_select">Select a Method</string>
+    <string name="desc_psnr">PSNR (Peak Signal-to-Noise Ratio) measures the quality difference between the original media and the watermarked version.\n\n• Unit: dB (decibels)\n• Common Scale:\n  - &gt; 40 dB: Excellent quality\n  - 30–40 dB: Good quality\n  - &lt; 30 dB: Noticeable degradation</string>
+    <string name="desc_snr">SNR (Signal-to-Noise Ratio) indicates how strong the signal is compared to noise, especially in audio.\n\n• Unit: dB\n• Common Scale:\n  - &gt; 20 dB: Excellent\n  - 10–20 dB: Acceptable\n  - &lt; 10 dB: Poor quality</string>
+    <string name="desc_payload">Payload represents the amount of watermark data embedded into the media.\n\n• Units:\n  - bits (total amount)\n  - bpp (bits per pixel) for image\n  - bps (bits per sample) for audio\n\n• Higher payload increases capacity but may reduce media quality.</string>
+    <string name="desc_bpp">bpp (bits per pixel) indicates how many bits of watermark are embedded per pixel in an image.\n\n• Used in image watermarking.\n• Lower bpp values (e.g., &lt; 0.01) help maintain visual quality.\n• bpp = total watermark bits / (image width × height)</string>
+    <string name="desc_bps">bps (bits per sample) indicates how many bits of watermark are embedded per audio sample.\n\n• Used in audio watermarking.\n• Lower bps values (e.g., &lt; 0.01) help maintain audio quality.\n• bps = total watermark bits / number of audio samples</string>
+    <string name="desc_ber">BER (Bit Error Rate) is the ratio of incorrectly extracted watermark bits to the total embedded bits.\n\n• Lower BER indicates better extraction accuracy.\n• BER = 0 means perfect extraction with no errors.</string>
+    <string name="dialog_title_info_image">"Image Quality Characteristics Information"</string>
+    <string name="dialog_title_info_audio">"Audio Quality Characteristics Information"</string>
+
+<!--    ini attack image-->
+    <string name="dialog_title_attack_info">Attack Type Information</string>
+    <string name="attack_no_attack">No modification; the image remains untouched.</string>
+    <string name="attack_jpeg">Applies JPEG compression, possibly reducing visual quality.</string>
+    <string name="attack_rotation">Rotates the image, shifting pixels and watermark location.</string>
+    <string name="attack_flip">Horizontally flips the image, reversing pixel layout.</string>
+    <string name="attack_crop">Randomly crops part of the image, possibly removing watermark data.</string>
+    <string name="attack_scaling_reverse">Scales the image then resizes it back, possibly distorting watermark.</string>
+    <string name="attack_uniform">Applies uniform scaling to both dimensions of the image.</string>
+    <string name="attack_nonuniform">Applies non-uniform scaling on X/Y, warping the image.</string>
+    <string name="attack_column_row">Randomly removes rows or columns from the image.</string>
+    <string name="attack_rotation_resize">Applies both rotation and resizing distortions.</string>
+    <string name="attack_geo_distortion">Applies random geometric distortion to the image layout.</string>
+    <string name="attack_geo_jpeg">Combines geometric distortion with JPEG compression.</string>
+    <string name="attack_lpf">Smooths the image and removes high-frequency detail using LPF.</string>
+    <string name="attack_sharpen">Sharpens the image, enhancing edges and fine structures.</string>
+    <string name="attack_histogram">Adjusts image contrast via histogram equalization.</string>
+    <string name="attack_gamma">Modifies brightness/contrast using gamma correction.</string>
+    <string name="attack_color_quant">Reduces number of colors in the image, simplifying appearance.</string>
+    <string name="attack_noise">Adds random noise, disrupting the watermark.</string>
+    <string name="attack_stat_avg">Modifies pixels using local statistical averaging.</string>
+    <string name="attack_overmark">Adds a new watermark on top of the existing one.</string>
+    <string name="attack_oracle">Attempts to guess the watermark using additional information.</string>
+    <string name="attack_median">Smooths the image using a median filter to reduce noise.</string>
+
+<!--    ini attack audio-->
+    <string name="dialog_title_attack_audio">Audio Attack Descriptions</string>
+    <string name="audio_attack_lpf">Low-Pass Filter (LPF) removes high-frequency components from the audio signal, which may include embedded watermark data.</string>
+    <string name="audio_attack_bpf">Band-Pass Filter (BPF) allows only a certain frequency band, removing others and potentially damaging watermark information outside that band.</string>
+    <string name="audio_attack_requant">Requantization reduces the audio bit-depth (e.g., from 16-bit to 8-bit), lowering quality and affecting watermark accuracy.</string>
+    <string name="audio_attack_additive">Additive White Noise introduces random noise into the audio, masking or distorting the watermark.</string>
+    <string name="audio_attack_resample">Resampling changes the sample rate of the audio, which may disrupt the embedded watermark structure.</string>
+    <string name="audio_attack_timescale">Time-Scale Modification changes the duration (speed up or slow down) without affecting pitch. It alters time-domain watermark patterns.</string>
+    <string name="audio_attack_speed">Linear Speed Change modifies playback speed linearly, shifting time positions of embedded watermark signals.</string>
+    <string name="audio_attack_pitch">Pitch Shifting adjusts the pitch without changing duration, potentially corrupting frequency-based watermarking.</string>
+    <string name="audio_attack_eq">Equalizer modifies certain frequency bands. Boosting or cutting can remove watermark data in those bands.</string>
+    <string name="audio_attack_echo">Echo adds delayed repetitions of audio signal, possibly hiding the watermark within the echo.</string>
+    <string name="audio_attack_mp3">MP3 Compression applies lossy encoding that removes "less important" data, which may include watermark bits.</string>
+
+    <string name="dialog_exit_title">Leave this page?</string>
+    <string name="dialog_exit_message_embed">The embedding result is available. Have you downloaded it?</string>
+    <string name="dialog_exit_message_extract">The extraction result is available. Have you downloaded it?</string>
+    <string name="dialog_exit_message_attack">The attacking result is available. Have you downloaded it?</string>
+    <string name="dialog_button_exit">Exit</string>
+    <string name="dialog_button_cancel">Cancel</string>
+
+    <string name="hasil_step">Result</string>
+
+
+</resources>

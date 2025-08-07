@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+firebase-admin
+python-multipart
+python-dotenv
+pytz>=2022.7

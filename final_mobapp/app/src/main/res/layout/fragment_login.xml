@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_gray"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="loginpage.LoginFragment">
+
+
+    <!-- Black Section -->
+    <LinearLayout
+        android:id="@+id/layoutBlackSection"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/dark_gray"
+        android:gravity="center"
+        app:layout_constraintWidth_default="spread"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.30"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <!-- login -->
+        <TextView
+            android:id="@+id/tvLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="@font/anybodyextrabold" />
+    </LinearLayout>
+
+    <!-- Back Button -->
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/back_arrow"
+        android:backgroundTint="@color/white"
+        android:contentDescription="Back Button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="15dp" />
+
+    <!-- White Section -->
+    <LinearLayout
+        android:id="@+id/layoutWhiteSection"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:background="@drawable/hijau_di_welcomepage"
+        android:padding="24dp"
+        app:layout_constraintWidth_default="spread"
+        app:layout_constraintHeight_default="percent"
+        app:layout_constraintHeight_percent="0.70"
+        app:layout_constraintTop_toBottomOf="@id/layoutBlackSection"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- username -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="20dp"
+            app:boxBackgroundMode="outline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/edit_text_gray"
+                android:fontFamily="@font/anybodylight"
+                android:hint="username"
+                android:padding="12dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textAppearance="@style/BlackHintText"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- password -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="5dp"
+            app:boxBackgroundMode="outline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="password"
+                android:fontFamily="@font/anybodylight"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="15dp"
+                android:padding="12dp"
+                android:background="@drawable/edit_text_gray"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Forgot Password -->
+        <TextView
+            android:id="@+id/tvForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/forgotpass"
+            android:fontFamily="@font/anybodylight"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_gravity="end"/>
+
+        <!-- btnlogin -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/button_di_welcomepage"
+            android:text="@string/login"
+            android:textSize="20sp"
+            android:fontFamily="@font/anybodyextrabold"
+            android:textColor="@color/black"
+            android:layout_marginTop="70dp"
+            android:layout_marginHorizontal="5dp"/>
+
+        <!-- garis hitam -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:src="@drawable/black_line" />
+
+        <!-- google -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/googlelogin"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="60dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:layout_marginHorizontal="5dp">
+
+            <!-- image -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="5dp">
+
+                <!-- Google Icon -->
+                <ImageView
+                    android:id="@+id/google_icon"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/google_logo"
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="Google Icon"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- text google -->
+            <TextView
+                android:id="@+id/google_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/google"
+                android:textColor="#000000"
+                android:fontFamily="@font/anybodysemibold"
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@id/google_icon"
+                android:layout_gravity="center"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IdentaMark</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="choose_language">Pilih Bahasa</string>
+    <string name="Embedding">Penyisipan</string>
+    <string name="Extraction">Ekstraksi</string>
+    <string name="Attacking">Penyerangan</string>
+    <string name="Image">Gambar</string>
+    <string name="Audio">Audio</string>
+    <string name="language">Bahasa</string>
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="forgotpass">Lupa Password</string>
+    <string name="google">Lanjut Dengan Google</string>
+    <string name="welcome_page">Selamat Datang di IdentaMark</string>
+    <string name="image_watermark">Watermark Gambar</string>
+    <string name="audio_watermark">Watermark Audio</string>
+    <string name="image_watermark_embedding">Watermark Gambar - Penyisipan</string>
+    <string name="image_watermark_extraction">Watermark Gambar - Extraksi</string>
+    <string name="image_watermark_attacking">Watermark Gambar - Penyerangan</string>
+    <string name="audio_watermark_embedding">Watermark Audio - Penyisipan</string>
+    <string name="audio_watermark_extraction">Watermark Audio - Extraksi</string>
+    <string name="audio_watermark_attacking">Watermark Audio - Penyerangan</string>
+    <string name="close">Tutup</string>
+    <string name="download">Unduh</string>
+    <string name="confirm">konfirmasi</string>
+    <string name="choose_from_gallery">Pilih dari Galeri</string>
+    <string name="choose_from_file">Pilih dari File</string>
+    <string name="deskripsi_dashboard">Ubah kreasi Anda menjadi karya tak tertandingi dengan IdentaMark. Konten Anda, aturan Anda—dilindungi seperti belum pernah sebelumnya.</string>
+    <string name="deskripsi_image">Pilih proses Anda untuk menyisipkan atau mengekstrak watermark ke dalam gambar Anda dengan percaya diri.</string>
+    <string name="deskripsi_embedd">Penyisipan: "Menyisipkan watermark bawaan sistem ke dalam gambar Anda untuk mendukung pelacakan dan perlindungan hak cipta."</string>
+    <string name="deskripsi_ektraksi">Ekstraksi: "Mengambil data watermark yang telah disisipkan untuk keperluan analisis dan evaluasi."</string>
+    <string name="deskripsi_attacking">Penyerangan: "Uji kekuatan watermark melalui kompresi, noise, dan serangan lainnya."</string>
+    <string name="deskripsi_audio">Pilih proses Anda untuk menyisipkan atau mengekstrak watermark ke dalam audio Anda dengan percaya diri.</string>
+    <string name="deskripsi_embedd_audio">Penyisipan: "Menyisipkan watermark bawaan sistem ke dalam audio Anda untuk mendukung pelacakan dan perlindungan hak cipta."</string>
+    <string name="deskripsi_ektraksi_audio">Ekstraksi: "Mengambil data watermark yang telah disisipkan untuk keperluan analisis dan evaluasi."</string>
+    <string name="embedding_image">Sisipkan watermark ke gambar Anda dalam 3 langkah sederhana!</string>
+    <string name="attacking">Uji kekuatan watermark Anda dalam 4 langkah sederhana!</string>
+    <string name="extraction_image">Ekstrak watermark dari gambar Anda dalam 2 langkah sederhana!</string>
+    <string name="embedding_audio">Sisipkan watermark ke audio Anda dalam 3 langkah sederhana!</string>
+    <string name="extraction_audio">Ekstrak watermark dari audio Anda dalam 2 langkah sederhana!</string>
+    <string name="success">Watermark berhasil disisipkan! Klik di sini untuk melihatnya.</string>
+    <string name="success_extract">Watermark berhasil diekstrak! Klik di sini untuk melihatnya.</string>
+    <string name="success_attack">Watermark berhasil diserang! Klik di sini untuk melihatnya.</string>
+    <string name="success_audio">Watermark berhasil disisipkan! Klik di sini untuk mendengarkannya.</string>
+    <string name="success_extract_audio">Watermark berhasil diekstrak! Klik di sini untuk mendengarkannya.</string>
+    <string name="success_attack_audio">Watermark berhasil diserang! Klik di sini untuk mendengarkannya.</string>
+    <string name="default_web_client_id">826818745234-r2ecfopp2tm9qd1h4eiu9e54tsg2c0qt.apps.googleusercontent.com</string>
+    <string name="attacking_follow">Ikuti Langkah Ini Untuk Pengujian</string>
+    <string name="attacking_file">Pilih Sebuah File</string>
+    <string name="attacking_type">Pilih Jenis Serangan</string>
+    <string name="attacking_attack">Pilih Jenis Serangan</string>
+    <string name="attacking_params">Isi Parameternya</string>
+    <string name="attacking_wait">Mohon tunggu, watermark Anda sedang Diuji...</string>
+    <string name="choose_process">Pilih Proses Anda</string>
+    <string name="choose_media">Pilih Media Anda</string>
+    <string name="boss">Watermark seperti bos—tinggal 4 langkah lagi:</string>
+    <string name="step1">Ambil Kendali: Pilih media Anda dan mulai miliki konten Anda.</string>
+    <string name="step2">Kuasai Prosesnya: Sisipkan identitas Anda, uji, dan ekstrak secara presisi."</string>
+    <string name="step3">Pilih Metode: Pilih metode watermarking yang sempurna.</string>
+    <string name="step4">Kuasai Sorotan: Lihat, simpan, atau bagikan mahakarya Anda yang diberi watermark.</string>
+    <string name="embedding_follow">Ikuti Langkah Ini Untuk Penyisipan</string>
+    <string name="embedding_file">Pilih Sebuah File</string>
+    <string name="embedding_watermark">Pilih Sebuah Watermark</string>
+    <string name="embedding_wait">Mohon tunggu, watermark Anda sedang disisipkan...</string>
+    <string name="embedding_method">Pilih Sebuah Metode</string>
+    <string name="embedding_method_select">Pilih Sebuah Metode</string>
+    <string name="extraction_follow">Ikuti Langkah Ini Untuk Ekstraksi</string>
+    <string name="extraction_file">Pilih File yang Berwatermark</string>
+    <string name="extraction_wait">Mohon tunggu, watermark Anda sedang diekstrak...</string>
+    <string name="extraction_method">Pilih Sebuah Metode</string>
+    <string name="extraction_method_select">Pilih Sebuah Metode</string>
+    <string name="desc_psnr">PSNR (Peak Signal-to-Noise Ratio) mengukur perbedaan kualitas antara media asli dan media hasil watermarking.\n\n• Satuan: dB (desibel)\n• Skala Umum:\n  - &gt; 40 dB: Kualitas sangat baik\n  - 30–40 dB: Kualitas baik\n  - &lt; 30 dB: Kualitas menurun / noise terlihat</string>
+    <string name="desc_snr">SNR (Signal-to-Noise Ratio) mengukur kekuatan sinyal terhadap gangguan (noise) pada audio.\n\n• Satuan: dB\n• Skala Umum:\n  - &gt; 20 dB: Sangat baik\n  - 10–20 dB: Cukup baik\n  - &lt; 10 dB: Kualitas buruk</string>
+    <string name="desc_payload">Payload menunjukkan jumlah informasi watermark yang disisipkan ke media.\n\n• Satuan umum:\n  - bit (jumlah total)\n  - bpp (bits per pixel) untuk gambar\n  - bps (bits per sample) untuk audio\n\n• Skala Umum:\n  - Payload tinggi berarti banyak data disisipkan, tetapi dapat menurunkan kualitas media.</string>
+    <string name="desc_bpp">bpp (bits per pixel) menunjukkan jumlah bit watermark yang disisipkan untuk setiap piksel pada gambar.\n\n• Digunakan dalam watermarking gambar.\n• Nilai bpp rendah (misalnya &lt; 0.01) biasanya menjaga kualitas gambar tetap baik.\n• bpp = total bit watermark / (lebar × tinggi gambar)</string>
+    <string name="desc_bps">bps (bits per sample) menunjukkan jumlah bit watermark yang disisipkan untuk setiap sampel audio.\n\n• Digunakan dalam watermarking audio.\n• Nilai bps rendah (misalnya &lt; 0.01) menjaga kualitas suara tetap alami.\n• bps = total bit watermark / jumlah sampel audio</string>
+    <string name="desc_ber">BER (Bit Error Rate) adalah rasio antara jumlah bit watermark yang salah setelah diekstraksi dibandingkan dengan total bit watermark yang disisipkan.\n\n• Semakin kecil BER, semakin baik kualitas dan keberhasilan ekstraksi.\n• BER = 0 berarti watermark berhasil diekstraksi sempurna tanpa kesalahan.</string>
+    <string name="dialog_title_info_image">"Informasi Ciri Kualitas Gambar"</string>
+    <string name="dialog_title_info_audio">"Informasi Ciri Kualitas Audio"</string>
+
+<!--    ini attack gambar-->
+    <string name="dialog_title_attack_info">Informasi Jenis Serangan</string>
+    <string name="attack_no_attack">Tidak ada perubahan atau gangguan pada gambar asli.</string>
+    <string name="attack_jpeg">Kompresi gambar menggunakan format JPEG, yang dapat mengurangi kualitas visual.</string>
+    <string name="attack_rotation">Memutar gambar menyebabkan perubahan posisi piksel dan watermark.</string>
+    <string name="attack_flip">Membalik gambar secara horizontal, mengubah susunan piksel.</string>
+    <string name="attack_crop">Memotong bagian acak dari gambar, dapat menghilangkan sebagian watermark.</string>
+    <string name="attack_scaling_reverse">Skalakan lalu dikembalikan ke ukuran semula, bisa mendistorsi watermark.</string>
+    <string name="attack_uniform">Melakukan penskalaan seragam pada kedua dimensi gambar.</string>
+    <string name="attack_nonuniform">Skala X dan Y tidak sama, menyebabkan gambar tampak penyok atau miring.</string>
+    <string name="attack_column_row">Menghapus baris atau kolom secara acak dari gambar.</string>
+    <string name="attack_rotation_resize">Gabungan rotasi dan perubahan ukuran yang kompleks.</string>
+    <string name="attack_geo_distortion">Distorsi geometrik acak yang mengubah bentuk struktur gambar.</string>
+    <string name="attack_geo_jpeg">Distorsi geometrik ditambah kompresi JPEG untuk efek ganda.</string>
+    <string name="attack_lpf">Low-pass filter menghaluskan gambar dan mengurangi detail tajam.</string>
+    <string name="attack_sharpen">Menambahkan ketajaman gambar, menekankan kontur dan detail.</string>
+    <string name="attack_histogram">Mengatur kontras gambar melalui histogram equalization.</string>
+    <string name="attack_gamma">Mengubah pencahayaan dengan kurva gamma (cerah/gelap).</string>
+    <string name="attack_color_quant">Mengurangi jumlah warna untuk membuat gambar lebih sederhana.</string>
+    <string name="attack_noise">Menambahkan noise acak yang dapat mengganggu watermark.</string>
+    <string name="attack_stat_avg">Mengubah piksel berdasarkan rata-rata statistik tetangga.</string>
+    <string name="attack_overmark">Menambahkan watermark baru di atas watermark asli.</string>
+    <string name="attack_oracle">Serangan cerdas dengan mencoba menebak isi watermark.</string>
+    <string name="attack_median">Filter median menghaluskan noise dan kontur halus.</string>
+
+<!--    ini attack audio-->
+    <string name="dialog_title_attack_audio">Informasi Serangan Audio</string>
+    <string name="audio_attack_lpf">Low-Pass Filter (LPF) menyaring frekuensi tinggi pada sinyal audio, membuat suara lebih halus tetapi dapat menghapus watermark yang ada di frekuensi tersebut.</string>
+    <string name="audio_attack_bpf">Band-Pass Filter (BPF) hanya melewatkan rentang frekuensi tertentu dan menghapus frekuensi lainnya. Ini dapat menghilangkan bagian watermark yang berada di luar rentang tersebut.</string>
+    <string name="audio_attack_requant">Requantization mengubah resolusi bit audio, seperti dari 16-bit ke 8-bit, yang dapat menurunkan akurasi dan mengganggu watermark.</string>
+    <string name="audio_attack_additive">Additive White Noise menambahkan noise acak ke seluruh sinyal audio, yang bisa mengganggu watermark tersembunyi.</string>
+    <string name="audio_attack_resample">Resampling mengubah sample rate audio, misalnya dari 44.1 kHz ke 22 kHz, dan bisa merusak struktur watermark.</string>
+    <string name="audio_attack_timescale">Time-Scale Modification mengubah durasi audio (dipercepat atau diperlambat) tanpa mengubah pitch. Ini dapat memecah watermark temporal.</string>
+    <string name="audio_attack_speed">Linear Speed Change mengubah kecepatan playback (tempo) secara linier, berdampak pada posisi watermark di domain waktu.</string>
+    <string name="audio_attack_pitch">Pitch Shifting mengubah tinggi nada suara tanpa mengubah kecepatan, dapat merusak watermark berbasis frekuensi.</string>
+    <string name="audio_attack_eq">Equalizer menyesuaikan level frekuensi tertentu. Penguatan atau pelemahan frekuensi bisa menghapus watermark pada rentang tersebut.</string>
+    <string name="audio_attack_echo">Echo menambahkan gema ke sinyal audio. Refleksi sinyal ini dapat menutupi watermark asli.</string>
+    <string name="audio_attack_mp3">MP3 Compression menggunakan lossy compression yang menghapus informasi audio "kurang penting", berisiko menghapus watermark tersembunyi.</string>
+
+
+    <string name="dialog_exit_title">Keluar dari Halaman?</string>
+    <string name="dialog_exit_message_embed">Hasil embedding sudah tersedia. Apakah Anda sudah mengunduh hasilnya?</string>
+    <string name="dialog_exit_message_extract">Hasil extraction sudah tersedia. Apakah Anda sudah mengunduh hasilnya?</string>
+    <string name="dialog_exit_message_attack">Hasil attacking sudah tersedia. Apakah Anda sudah mengunduh hasilnya?</string>
+    <string name="dialog_button_exit">Keluar</string>
+    <string name="dialog_button_cancel">Batal</string>
+
+    <string name="hasil_step">Hasil</string>
+
+</resources>
