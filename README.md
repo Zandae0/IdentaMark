@@ -2,20 +2,6 @@
 
 > A robust application for digital watermarking, offering secure embedding, extraction, and attack analysis for both image and audio files.
 
----
-
-## 📝 Table of Contents
-
-* [About The Project](#about-the-project)
-* [Key Features](#key-features)
-* [Watermarking Methods](#watermarking-methods)
-* [Getting Started](#getting-started)
-    * [Prerequisites](#prerequisites)
-    * [Installation](#installation)
-* [License](#license)
-
----
-
 ## 🚀 About The Project
 
 IdentaMark is a toolkit designed for research and implementation of digital watermarking. This application provides comprehensive functionality for the watermark lifecycle, from embedding, attacking, to extracting.
@@ -40,5 +26,3 @@ IdentaMark stands out with its implementation of two different error-correcting 
 * **BCH (Bose-Chaudhuri-Hocquenghem) Codes:** A highly effective block coding method for detecting and correcting errors that occur during the watermarking process or attacks.
 * **Convolutional Codes:** A coding method that produces a longer string from the input, providing better resilience against noise and distortion.
 
----"# IdentaMark" 
-"# IdentaMark" 
